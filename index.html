@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry</title>
+</head>
+<body>
+    <label>Sine Graph:</label>
+    <input type="radio" id="sin" value="sin(x)" checked="true"/>
+    <label>Cosine Graph:</label>
+    <input type="radio" id="cos" value="cos(x)" />
+    <br>
+    <br>
+    <label>Amplitude:</label>
+    <input type="text" id="amp" value="1" />
+    <br>
+    <br>
+    <label>Period:</label>
+    <input type="text" id="period" value="2PI" />
+    <br>
+    <br>
+    <label>Horizontal Shift:</label>
+    <input type="text" id="hshift" value="0" />
+    <br>
+    <br>
+    <label>Vertical Shift:</label>
+    <input type="text" id="vshift" value="0" />
+    <br>
+    <br>
+    <input type="button" id="graph" value="Graph" />
+    <div id="plot"></div>
+    <script src="https://unpkg.com/mathjs@11.3.1/lib/browser/math.js"></script>
+    <script src="https://cdn.plot.ly/plotly-1.35.2.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
